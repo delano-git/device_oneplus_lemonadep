@@ -19,6 +19,9 @@
 
 DEVICE_PATH := device/oneplus/lemonadep
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := lemonadep|OnePlus9Pro|oneplus9pro
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
