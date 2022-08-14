@@ -25,9 +25,11 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Overlays
 PRODUCT_PACKAGES += \
+    OPlusFrameworksResFHDTarget \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    OPlusSystemUIResFHDTarget
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-aosp

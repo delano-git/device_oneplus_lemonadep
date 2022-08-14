@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- List of overlays for each screen resolution, wqhd excluded as devices with wqhd will have it by default -->
+    <string-array name="config_screen_resolution_fhd_overlay_packages">
+        <item>"android.overlay.oplus.fhd.target"</item>
+        <item>"com.android.systemui.overlay.oplus.fhd.target"</item>
+    </string-array>
+
+</resources>
