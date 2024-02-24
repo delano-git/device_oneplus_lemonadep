@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 9 Pro (LE2125_13.1.0.593(EX01)).
+## are from OnePlus 9 Pro (LE2121_14.0.0.500(EX01)).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -20,18 +20,12 @@ odm/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so
 odm/lib/rfsa/adsp/libQnnHtpSkel.so
 odm/lib/rfsa/adsp/libSuperRawPost_skel.so
 odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so
-odm/lib/rfsa/adsp/libaiboost_skel.so
-odm/lib/rfsa/adsp/libaiboost_skel_v65.so
-odm/lib/rfsa/adsp/libaiboost_skel_v66.so
 odm/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so
-odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_5111_skel.so
 odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
 odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_lemonade.so
 odm/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so
 odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_20031.so
-odm/lib/rfsa/adsp/libc++.so.1
-odm/lib/rfsa/adsp/libc++abi.so.1
 odm/lib/rfsa/adsp/libcalculator_domains_skel.so
 odm/lib/rfsa/adsp/libcalculator_skel.so
 odm/lib/rfsa/adsp/libdehaze_skel.so
@@ -963,8 +957,6 @@ odm/lib64/android.hardware.secure_element@1.0-impl.so
 # Sensors
 odm/etc/sensor/config/lahaina_aw9610x_0.json
 odm/etc/sensor/config/lahaina_aw9610x_down_0.json
-odm/etc/sensor/config/lahaina_bmp380.json
-odm/etc/sensor/config/lahaina_lps22hb.json
 odm/etc/sensor/config/lahaina_qrd_ak0991x.json
 odm/etc/sensor/config/lahaina_qrd_alsps.json
 odm/etc/sensor/config/lahaina_qrd_bmi26x.json
@@ -1002,5 +994,4 @@ vendor/firmware/vpu20_4v_unsigned.mbn
 
 # WiFi
 odm/etc/wifi/bdwlan.elf
-odm/etc/wifi/regdb.bin
 odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
