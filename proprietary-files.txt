@@ -834,6 +834,16 @@ system_ext/lib/libNativeWinBuffExchange.so
 system/framework/oplus-support-wrapper.jar
 vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
+vendor/lib/libcamxexternalformatutils.so
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib64/camera.device@1.0-impl.so
+vendor/lib64/camera.device@3.2-impl.so
+vendor/lib64/camera.device@3.3-impl.so
+vendor/lib64/camera.device@3.4-external-impl.so
+vendor/lib64/camera.device@3.4-impl.so
+vendor/lib64/camera.device@3.5-external-impl.so
+vendor/lib64/camera.device@3.5-impl.so
+vendor/lib64/camera.device@3.6-external-impl.so
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
@@ -980,6 +990,7 @@ vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
 vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so
 vendor/lib/libcamerapostproc.so
 vendor/lib/libcamxexternalformatutils.so
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|436cd1f351daaee8d8068c790005e814c6e4cdb6|74cb9bfeeb96df0b707654d662042133ffb23c1a
 
 # Camera firmware
