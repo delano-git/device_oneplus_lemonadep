@@ -14,6 +14,9 @@ $(call inherit-product, device/oneplus/lemonadep/device.mk)
 # Inherit some common YAAP stuff.
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
+# GMS
+TARGET_BUILD_GAPPS := true
+
 PRODUCT_NAME := yaap_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
