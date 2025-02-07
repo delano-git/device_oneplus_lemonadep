@@ -12,21 +12,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lemonadep device
 $(call inherit-product, device/oneplus/lemonadep/device.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Boot animation
+# BkackIron
+WITH_GMS := true
+TARGET_HAS_UDFPS := true
 TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_ENABLE_BLUR := true
+BLACKIRON_BUILDTYPE := Official
+BLACKIRON_MAINTAINER := delano-git
 
-PRODUCT_NAME := aosp_lemonadep
+PRODUCT_NAME := lineage_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := LE2125
-
-PRODUCT_AAPT_CONFIG := xxxhdpi
-PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
-PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
