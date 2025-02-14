@@ -15,6 +15,14 @@ $(call inherit-product, device/oneplus/lemonadep/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# BkackIron
+WITH_GMS := true
+TARGET_HAS_UDFPS := true
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_ENABLE_BLUR := true
+BLACKIRON_BUILDTYPE := Official
+BLACKIRON_MAINTAINER := delano-git
+
 PRODUCT_NAME := lineage_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
